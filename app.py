@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 
-model=joblib.load("placement_model.pkl")
+model=joblib.load("placement_model_large.pkl")
 
 st.title("Placement Package Predictor")
 st.write("Fill in the details to see your estimated placement package (in LPA)")
